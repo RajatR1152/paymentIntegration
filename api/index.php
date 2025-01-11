@@ -1,3 +1,8 @@
+<?php
+
+require __DIR__ . "/../public/index.php";
+
+?>
 <div class="row" style="padding: 100px 300px;">
     <div class="col-50">
         <div class="container">
@@ -5,6 +10,11 @@
                 <div class="row">
                     <div class="col-25">
                         <h3 style="text-align: center; margin: 20px 10px; font-family: lato; ">Checkout Form</h3>
+
+                        <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                        <input type="text" id="fname" name="name" placeholder="John M. Doe">
+
+                        <input type="text" id="fname" hidden value="90" name="price" placeholder="John M. Doe">
 
                         <label for="fname"><i class="fa fa-user"></i> Full Name</label>
                         <input type="text" id="fname" name="name" placeholder="John M. Doe">
